@@ -833,7 +833,7 @@ try{
     initializeForm
 }
 catch{
-    Write-Host "Error connectin got S4B Powershell" -ForegroundColor Red
+    Write-Host "Error connecting to S4B Powershell" -ForegroundColor Red
 }
 finally{
     Get-PSSession | Remove-PSSession
